@@ -1,0 +1,113 @@
+<DOCTYPE! html>
+	<head>
+		<title>
+			RaSquare - Home
+		</title>
+	
+		<link rel="stylesheet" type="text/css" href="css/login-style/style.css"/>
+
+
+		<script  type="text/javascript" src="javascript/accountsLogin.js"></script>
+		<script  type="text/javascript" src="javascript/accountsShuffleImages.js"></script>
+		<script  type="text/javascript" src="javascript/accountsRegister.js"></script>
+		<script  type="text/javascript" src="javascript/accountLogOut.js"></script>
+
+
+		<script type="text/javascript" src="javascript/JQuery.js"></script>
+
+	</head>
+	
+	<body onload="localStorage.clear(); logOut();">
+		<div class="container">
+			<div class="webpage-head">			
+				<a href="index.html"><img class="game-logo" src="images/webdev-images/navigation-logo.png"/></a>
+				
+				<form id="login-form" onsubmit="return false;">
+					<div class="login-details-part">
+						<div class="username-part">
+							<span>Username</span>
+							<input id="login-username-textbox" type="textbox" required/>
+						</div>
+						
+						<div class="password-part">
+							<span>Password</span>
+							<input id="login-password-textbox" type="password" required/>
+						</div>
+						
+						<div class="error-part">
+							<p id="error-message"></p>
+						</div>
+					</div>
+					
+					<div class="login-part">
+						<div class="login-button-part">
+							<input id="login-button" type="submit" value="Login" onclick="userLogin()"/>
+						</div>
+						
+						<div class="forgot-part">
+							<a class="forgot-pass-click" href="forgot-password.html">Forgot Password?</a>
+						</div>
+					</div>
+				</form>
+			</div>
+			
+			<div class="page-body">
+				<div id="home-form">
+					<div class="form-title">
+						<span>Create New Account</span>
+					</div>
+					
+					<form id="register-form" onsubmit="return false;">
+						<div class="left-form-label">
+							<span>Name:</span>
+							<span>Username:</span>
+							<span>Password:</span>
+						</div>
+						
+						<div class="left-form-textbox">
+							<input id="name-textbox" type="textbox" name="name-textbox"/>
+							<input id="username-textbox" type="textbox"/>
+							<input id="password-textbox" type="password"/>
+						</div>
+						
+						<div class="right-form-label">
+							<span>Confirm Password:</span>
+							<span>Security Question:</span>
+							<span>Security Answer:</span>
+						</div>
+						
+						<div class="right-form-textbox">
+							<input id="confirm-password-textbox" type="password"/>
+							
+							<select id="security-list" name="List Of Questions">
+								<option value="">List of Questions</option>
+								<option value="pet-question">First pet name?</option>
+								<option value="car-question">First car?</option>
+								<option value="mother-question">Mother's name?</option>
+								<option value="hobby-question">Favourite hobby?</option>
+							</select>
+							
+							<input id="security-textbox" type="textbox"/>
+						</div>
+						
+						<div class="register-part">
+							<input id="register-button" type="submit" value="Register" onclick="validateRegistration()"/>
+						</div>
+						
+						<div id="status-part">
+							<p id="status-message">Fill all the details to create a new account.</p>
+						</div>
+					</form>
+				</div>
+				
+				<div class="image-shuffler">
+					<img id="shuffling-images" src="images/shuffling-images/1.png"/>
+				</div>
+				
+				<div class="game-full-logo">
+					<img class="shuffling-images" src="images/webdev-images/rasquare-logo.png"/>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

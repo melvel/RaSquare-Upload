@@ -1,0 +1,134 @@
+#instructions-part
+{
+	float : left;
+	width : 900px;
+	height : 385px;
+	margin-left : 50px;
+	margin-bottom : 75px;
+	padding-right : 50px;
+}
+
+#right-rankings
+{
+	float : left;
+	margin-top : 50px;
+}
+
+#instructions-title
+{
+	margin-top : 60px;
+	margin-left : 150px;
+	padding-bottom : 20px;
+	font-size : 200%;
+	font-family : Calibri;
+	font-weight : bold;
+}
+
+#sample-rankings-title span
+{
+	font-size : 200%;
+	font-family : Calibri;
+	font-weight : bold;
+}
+
+.sample-result
+{
+	padding-top : 10px;
+	padding-bottom : 10px;
+	border-bottom: 3px solid;
+}
+
+.sample-result span
+{
+	font-size : 130%;
+	font-family : Calibri;
+}
+
+.sample-position
+{
+	float : left;
+	padding-right : 15px;
+}
+
+.sample-points
+{
+	padding-left : 30px;
+}
+
+#instruction-label
+{
+	font-size : 130%;
+	font-family : Calibri;
+	color : green;
+	margin-top : 50px;
+	margin-left : 200px;
+}
+
+#racing-square
+{
+	background-color : red;
+	width : 20px;
+	height : 20px;
+	margin-top : 50px;
+	margin-left : 50px;
+}
+
+#wall-image
+{
+	width : 100px;
+	height : 100px;
+	margin-top : 0px;
+	margin-left : 350px;
+	display : block;
+}
+
+#high-score-label
+{
+	font-size : 180%;
+	font-family : Calibri;
+	font-weight : bold;
+	color : green;
+	margin-top : 50px;
+	margin-left :750px;
+	display : block;
+}
+
+#high-score
+{
+	font-size : 130%;
+	font-family : Calibri;
+	color : green;
+	margin-top : 0px;
+	margin-left :750px;
+	display : block;
+}
+
+#current-score-label
+{
+	font-size : 180%;
+	font-family : Calibri;
+	font-weight : bold;
+	color : green;
+	margin-top : 50px;
+	margin-left :750px;
+	display : block;
+}
+
+#current-score
+{
+	font-size : 130%;
+	font-family : Calibri;
+	color : green;
+	margin-top : 0px;
+	margin-left :750px;
+	display : block;
+}
+
+#oil-image
+{
+	width : 100px;
+	height : 100px;
+	margin-top : 200px;
+	margin-left : 350px;
+	display : block;
+}

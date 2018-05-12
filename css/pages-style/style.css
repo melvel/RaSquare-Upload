@@ -1,0 +1,93 @@
+.body
+{
+	margin : 0;
+	padding : 0;
+}
+
+.container
+{
+	width: 1300px;
+	height: 700px;
+	margin-left : auto;
+	margin-right : auto;
+	position : relative;
+	background-color : white;
+}
+
+.webpage-head
+{
+	float : left;
+	background-image:url(../../images/webdev-images/header.png);
+	background-size: 1300px 200px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width : 1300px;
+	height : 200px;
+}
+
+.game-logo
+{
+	float : left;
+	padding-top : 10px;
+}
+
+.navigation-bar
+{
+	float : left;
+	list-style:none;
+	padding-bottom:5px;
+	margin-top:75px;
+	font-size : 150%;
+	font-family : Calibri;
+}
+
+.navigation-bar li
+{
+	float : left;
+	padding-left : 40px;
+	padding-right : 40px;
+	margin : 0px;
+	border-right : 5px solid black;
+}
+
+.navigation-bar li a
+{
+	display : block;
+	text-decoration : none;
+	color : black;
+	font-weight : bold;
+	font-family : Calibri;
+}
+
+.navigation-bar li a:hover
+{
+	text-decoration : underline;
+	color : white;
+}
+
+.page-body
+{
+	float : left;
+	background-image:url(../../images/webdev-images/morning-mode.png);
+	background-size: 1300px 700px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color : white;
+	width : 1300px;
+	height : 700px;
+}
+
+.game-full-logo
+{
+	margin-left : 80px;
+	float : left;
+}
+
+#car-loading-image
+{
+	position : absolute;
+	top : 45%;
+	left : 45%;
+	width : 215px;
+	height : 87px;
+}

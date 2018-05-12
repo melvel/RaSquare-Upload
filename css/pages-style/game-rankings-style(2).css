@@ -1,0 +1,135 @@
+#rankings-section
+{
+	margin-top : 50px;
+	margin-left : 50px;
+	width : 1200px;
+	height : 400px;
+}
+
+#rankings-header
+{
+	float : left;
+	border-bottom : solid 5px;
+	padding-bottom : 20px;
+}
+
+.rankings-title
+{
+	width : 250px;
+	text-align : center;
+	margin-left : 35px;
+	float : left;
+}
+
+.rankings-title span
+{
+	font-size : 250%;
+	font-family : Calibri;
+	font-weight : bolder;
+}
+
+#table-scroll {
+	float : left;
+    height:350px;
+    overflow:auto;
+}
+
+#rankings-result
+{
+	float : left;
+	border : none;
+}
+
+#rankings-result tr
+{
+	display : block;
+	padding-bottom : 25px;
+	border-bottom : solid 2px;
+}
+
+#rankings-result td
+{
+	width : 250px;
+	text-align : center;
+	margin-left : 35px;
+	border : none;
+	float : left;
+	
+	font-size : 120%;
+	font-family : Calibri;
+	font-weight : bold;
+}
+
+#player-name, #games-won, #games-lost, #high-score
+{
+	width : 250px;
+	text-align : center;
+	margin-left : 45px;
+	float : left;
+}
+
+#player-name span
+{
+	font-size : 120%;
+	font-family : Calibri;
+	font-weight : bold;
+}
+
+#games-won span
+{
+	font-size : 120%;
+	font-family : Calibri;
+	font-weight : bold;
+}
+
+#games-lost span
+{
+	font-size : 120%;
+	font-family : Calibri;
+	font-weight : bold;
+}
+
+#high-score span
+{
+	font-size : 120%;
+	font-family : Calibri;
+	font-weight : bold;
+}
+
+#current-player-name
+{
+	position : absolute;
+	margin-top : 30px;
+	margin-left : 850px;
+	font-family : Calibri;
+	font-size : 400%;
+}
+
+#current-wins-lost
+{
+	position : absolute;
+	margin-left : 965px;
+	margin-top : 100px;
+	font-family : Calibri;
+	font-size : 300%;
+	float : left;
+}
+
+#current-high-score
+{
+	position : absolute;
+	margin-top : 30px;
+	margin-left : 1100px;
+	font-family : Calibri;
+	font-size : 650%;
+}
+
+.game-full-logo
+{
+	margin-top : 90px;
+}
+
+.game-full-logo img
+{
+	width : 850px;
+}

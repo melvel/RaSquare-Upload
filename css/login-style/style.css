@@ -1,0 +1,293 @@
+.body
+{
+	margin : 0;
+	padding : 0;
+}
+
+.container
+{
+	width: 1300px;
+	height: 700px;
+	margin-left : auto;
+	margin-right : auto;
+	position : relative;
+	background-color : white;
+}
+
+.webpage-head
+{
+	float : left;
+	background-image:url(../../images/webdev-images/header.png);
+	background-size: 1300px 200px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width : 1300px;
+	height : 200px;
+}
+
+.game-logo
+{
+	float : left;
+	padding-top : 10px;
+}
+
+.login-details-part
+{
+	float : left;
+	margin-top : 62px;
+	margin-left : 470px;
+}
+
+.login-part
+{
+	float : right;
+	margin-top : 62px;
+	margin-right : 125px;
+	margin-left : 20px;
+}
+
+#login-button
+{
+	font-size : 150%;
+	font-family : Calibri;
+	margin : 0 auto;
+	border-color : white;
+	text-align : center;
+	width : 150px;
+	background-color : gray;
+	border-color : white;
+	border-bottom-color : black;
+	border-right-color : black;
+}
+
+.forgot-part
+{
+	margin-top : 15px;
+}
+
+.forgot-pass-click
+{
+	font-style : italic;
+	font-family : Calibri;
+	font-size : 125%;
+}
+
+.forgot-pass-click:hover
+{
+	color : white;
+}
+
+.username-part
+{
+	padding-bottom : 15px;
+}
+
+.username-part span
+{
+	font-size : 150%;
+	font-family : Calibri;
+	font-weight : bold;
+}
+
+.password-part span
+{
+	font-size : 150%;
+	font-family : Calibri;
+	font-weight : bold;
+}
+
+#login-username-textbox
+{
+	margin-left : 5px;
+	border-color : black;
+}
+
+#login-password-textbox
+{
+	margin-left : 10px;
+	border-color : black;
+}
+
+.error-part
+{
+	margin-left : 110px;
+}
+
+#error-message
+{
+	color : white;
+	font-size : 120%;
+	font-family : Calibri;
+	font-weight : bold;
+}
+
+.page-body
+{
+	float : left;
+	background-image:url(../../images/webdev-images/morning-mode.png);
+	background-size: 1300px 700px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width : 1300px;
+	height : 700px;
+}
+
+#home-form
+{
+	float : left;
+	margin-left : 50px;
+	margin-top : 50px;
+}
+
+.form-title
+{
+	margin-left : 180px;
+	font-size : 200%;
+	font-family : Calibri;
+	font-weight : bold;
+}
+
+.left-form-label
+{
+	margin-top : 20px;
+	margin-right : 5px;
+	float : left;
+}
+
+.left-form-label span
+{
+	font-size: 125%;
+	font-family : Calibri;
+	font-weight : 600;
+	margin-right : 20px;
+	margin-top : 60px;
+	padding-bottom : 5px;
+	display : block;
+}
+
+.left-form-textbox
+{
+	padding-top : 20px;
+	float : left;
+}
+
+.left-form-textbox input
+{
+	margin-top : 65px;
+	display : block;
+}
+
+.left-form-textbox select
+{
+	margin-top : 65px;
+	padding-right : 35px;
+}
+
+.right-form-label
+{
+	margin-top : 20px;
+	margin-right : 5px;
+	padding-left : 30px;
+	float : left;
+}
+
+.right-form-label span
+{
+	font-size: 125%;
+	font-family : Calibri;
+	font-weight : 600;
+	margin-right : 20px;
+	margin-top : 60px;
+	padding-bottom : 5px;
+	display : block;
+}
+
+.right-form-textbox
+{
+	padding-top : 20px;
+	float : left;
+}
+
+.right-form-textbox input
+{
+	margin-top : 65px;
+	display : block;
+}
+
+.right-form-textbox select
+{
+	margin-top : 65px;
+	padding-right : 35px;
+}
+
+.register-part
+{
+	margin-top : 320px;
+	margin-left : 100px;
+	position : absolute;
+}
+
+.register-part input
+{
+	font-size : 150%;
+	font-family : Calibri;
+	margin : 0 auto;
+	border-color : white;
+	text-align : center;
+	width : 150px;
+	background-color : gray;
+	border-color : white;
+	border-bottom-color : black;
+	border-right-color : black;
+}
+
+#status-part
+{
+	width : 350px;
+	margin-top : 310px;
+	margin-left : 300px;
+	position : absolute;
+}
+
+#status-part p
+{
+	font-size : 110%;
+	font-family : Calibri;
+	font-weight : bold;
+	color : green;
+}
+
+.image-shuffler
+{
+	float : right;
+	width : 410px;
+	height : 300px;
+	margin-top : 110px;
+	margin-right : 80px;
+}
+
+#shuffling-images
+{
+	width : 100%;
+	height : 100%;
+}
+
+.game-full-logo
+{
+	margin-left : 80px;
+	margin-top : 75px;
+	float : left;
+}
+
+#validate-details-button, #change-password-button
+{
+	font-size : 150%;
+	font-family : Calibri;
+	border-color : white;
+	text-align : center;
+	width : 150px;
+	background-color : gray;
+	border-color : white;
+	border-bottom-color : black;
+	border-right-color : black;
+}

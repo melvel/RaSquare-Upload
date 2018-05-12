@@ -1,0 +1,201 @@
+#page-header
+{
+	margin-top : 50px;
+	margin-left : 550px;
+	padding-right : 100px;
+}
+
+#page-title
+{
+	font-size : 200%;
+	font-family : Calibri;
+	font-weight : bold;
+	float : left;
+}
+
+#first-options
+{
+	margin-top : 20px;
+	margin-left : 200px;
+	float : left;
+	border : solid 2px;
+	width : 850px;
+}
+
+.options-label
+{
+	font-size: 125%;
+	font-family : Calibri;
+	font-weight : 600;
+	margin-right : 20px;
+	margin-left : 20px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	float : left;
+}
+
+.options-selection
+{
+	float : left;
+	padding-top : 7px;
+	padding-bottom : 5px;
+}
+
+#play-mode-list, #color-list
+{
+	padding-bottom : 5px;
+	margin-right : 30px;
+}
+
+.sound-area
+{
+	padding-top : 5px;
+	float : left;
+}
+
+#second-options
+{
+	clear : left;
+	margin-top : 20px;
+	margin-left : 200px;
+	float : left;
+	border : solid 2px;
+	width : 850px;
+}
+
+#form-activation
+{
+	font-size: 125%;
+	font-family : Calibri;
+	font-weight : 600;
+	margin-right : 20px;
+}
+
+#home-form
+{
+	float : left;
+	margin-top : 10px;
+	padding-left : 15px;
+}
+
+.left-form-label
+{
+	margin-top : 5px;
+	margin-right : 5px;
+	float : left;
+}
+
+.left-form-label span
+{
+	font-size: 125%;
+	font-family : Calibri;
+	font-weight : 600;
+	margin-right : 20px;
+	margin-top : 30px;
+	padding-bottom : 5px;
+	display : block;
+}
+
+.left-form-textbox
+{
+	padding-top : 5px;
+	float : left;
+}
+
+.left-form-textbox input
+{
+	margin-top : 35px;
+	padding-bottom : 5px;
+	display : block;
+}
+
+.left-form-textbox select
+{
+	margin-top : 35px;
+	padding-bottom : 5px;
+}
+
+.right-form-label
+{
+	margin-top : 5px;
+	margin-right : 5px;
+	padding-left : 60px;
+	float : left;
+}
+
+.right-form-label span
+{
+	font-size: 125%;
+	font-family : Calibri;
+	font-weight : 600;
+	margin-right : 20px;
+	margin-top : 30px;
+	padding-bottom : 5px;
+	display : block;
+}
+
+.right-form-textbox
+{
+	padding-top : 5px;
+	padding-right : 20px;
+	float : left;
+}
+
+.right-form-textbox input
+{
+	margin-top : 35px;
+	padding-bottom : 5px;
+	display : block;
+}
+
+#options-button
+{
+	clear : left;
+	padding-top : 50px;
+	margin-left : 70px;
+	margin-bottom : 20px;
+	margin-right  : 20px;
+}
+
+#save-part
+{
+	float : left;
+	margin-right  : 90px;
+}
+
+#deactivation-part input, #save-part input
+{
+	font-size : 150%;
+	font-family : Calibri;
+	margin : 0 auto;
+	border-color : white;
+	text-align : center;
+	width : 240px;
+	background-color : gray;
+	border-color : white;
+	border-bottom-color : black;
+	border-right-color : black;
+}
+
+.image-shuffler
+{
+	float : right;
+	width : 410px;
+	height : 300px;
+	margin-top : 30px;
+	margin-right : 80px;
+}
+
+#shuffling-images
+{
+	width : 100%;
+	height : 100%;
+}
+
+#banner-image
+{
+	position : absolute;
+	top : 400px;
+	width : 450px;
+	height : 100px;
+}
